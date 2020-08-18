@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.filters{
+  margin-top:250px;
+}
+
+.text-banner{
+  font-size:50px;
+  color:white;
+}
+.task-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/proxy/6nFMflHjWQRm1WtdwsPIAQD0b51X1dAyZRAuC9z2JqRy42nU3qWQ1B6v3DN_wmVv3OE3ErL-g2zynQaSvOZF-g-JmRoHK97XppuY181qz24zFkB8PQ");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.formTarea{
+  margin-top:200px;
+}
+.task-text>.filters {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.task-text filter {
+  border: none;
+  outline: 0;
+  display: inline-block;
+}
+
+.table{
+  margin-top:150px;
+}
+.text{
+  color:gray;
+  font-weight: bold;
+}
+.text-red{
+  color:red;
+  font-weight: bold;
+}
+.loading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+
+.form-flebox{
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.form-flebox .checkbox-form .form-check{
+  padding-left: 0px;
+}
+
+.task-completed::after{
+  content: "";
+  height: 2px;
+  background-color: #000;
+  width: 68%;
+  position: absolute;
+  top: 24%;
+  left: 7%;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
